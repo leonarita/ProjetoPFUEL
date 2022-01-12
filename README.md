@@ -1,4 +1,5 @@
 # Projeto - Programação Funcional
+
 Projeto de Análise Exploratória de Dados (EDA) utilizando Linguagem R, baseando-se na utilização do Paradigma Funcional.
 
 <br>
@@ -28,6 +29,8 @@ O projeto possui duas entregas:
 <br>
 
 ## 3. Conjuntos de Dados
+
+Dentre as massas de dados dispostas para a realização do projeto, podia-se escolher:
 
 - [Brazilian Cities](https://www.kaggle.com/crisparada/brazilian-cities)
 - [Flights in Brazil](https://www.kaggle.com/ramirobentes/flights-in-brazil)
