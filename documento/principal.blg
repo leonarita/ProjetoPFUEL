@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: principal.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+The style file: abntex2-alf.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Database file #1: abntex2-options.bib
+Database file #2: referencias/referencias.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 38 entries,
+            6714 wiz_defined-function locations,
+            1402 strings with 16693 characters,
+and the built_in function-call counts, 89542 in all, are:
+= -- 12283
+> -- 596
+< -- 3582
++ -- 3831
+- -- 198
+* -- 4956
+:= -- 10477
+add.period$ -- 158
+call.type$ -- 39
+change.case$ -- 264
+chr.to.int$ -- 47
+cite$ -- 35
+duplicate$ -- 11794
+empty$ -- 1867
+format.name$ -- 901
+if$ -- 15757
+int.to.chr$ -- 3
+int.to.str$ -- 3
+missing$ -- 610
+newline$ -- 204
+num.names$ -- 175
+pop$ -- 776
+preamble$ -- 1
+purify$ -- 118
+quote$ -- 0
+skip$ -- 11908
+stack$ -- 1
+substring$ -- 4244
+swap$ -- 3913
+text.length$ -- 27
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 238
+width$ -- 0
+write$ -- 536
