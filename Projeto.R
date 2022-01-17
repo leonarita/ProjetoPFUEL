@@ -14,4 +14,4 @@ str(dados)
 
 
 
-R.Version()
+
