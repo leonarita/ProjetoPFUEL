@@ -26,8 +26,8 @@ dados %>% count(cut_width(IDHM, 0.1))
 # CASO 1
 ggplot(data = dados, mapping = aes(x = IDHM, colour = STATE)) + geom_histogram(binwidth = 0.1)
 
-# CASO 2
+# CASO 20
 ggplot(data = dados, mapping = aes(x = IDHM, colour = IBGE_RES_POP_ESTR)) + geom_freqpoly(binwidth = 0.1)
-ggplot(data = dados, mapping = aes(x = IBGE_RES_POP, colour = IBGE_RES_POP_ESTR)) + geom_freqpoly(binwidth = 0.8)
+ggplot(data = dados, mapping = aes(x = CITY, colour = IBGE_RES_POP_ESTR)) + geom_freqpoly(binwidth = 100)
 
 
