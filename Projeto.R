@@ -18,16 +18,34 @@ str(dados)
 ggplot(data = dados) + geom_bar(mapping = aes(x = STATE))
 dados %>% count(STATE)
 
+# Tratando dados
+dados_tratados <- dados %>% filter(!is.na(dados$IDHM))
+dados_tratados
+
 # Conhecendo melhor os dados: visualizando a distribuição do IDH
-ggplot(data = dados) + geom_histogram(mapping = aes(x = IDHM), binwidth = 0.1)
-ggplot(data = dados, mapping = aes(x = IDHM)) + geom_histogram(binwidth = 0.1)
-dados %>% count(cut_width(IDHM, 0.1))
+ggplot(data = dados_tratados) + geom_histogram(mapping = aes(x = IDHM), binwidth = 0.1)
+ggplot(data = dados_tratados, mapping = aes(x = IDHM)) + geom_histogram(binwidth = 0.1)
+dados_tratados %>% count(cut_width(IDHM, 0.1))
 
-# CASO 1
-ggplot(data = dados, mapping = aes(x = IDHM, colour = STATE)) + geom_histogram(binwidth = 0.1)
+# Aplicando análise de dados
+ggplot(data = dados_tratados, mapping = aes(x = IDHM, colour = STATE)) + geom_histogram(binwidth = 0.1)
 
-# CASO 20
-ggplot(data = dados, mapping = aes(x = IDHM, colour = IBGE_RES_POP_ESTR)) + geom_freqpoly(binwidth = 0.1)
-ggplot(data = dados, mapping = aes(x = CITY, colour = IBGE_RES_POP_ESTR)) + geom_freqpoly(binwidth = 100)
+ggplot(data = dados_tratados, mapping = aes(x = IDHM_Renda, colour = STATE)) + geom_histogram(binwidth = 0.1)
+ggplot(data = dados_tratados, mapping = aes(x = IDHM_Longevidade, colour = STATE)) + geom_histogram(binwidth = 0.1)
+ggplot(data = dados_tratados, mapping = aes(x = IDHM_Educacao, colour = STATE)) + geom_histogram(binwidth = 0.1)
+
+# Calculando médias entre os valores de IDH
+mean(dados_tratados$IDHM)
+mean(dados_tratados$IDHM_Renda)
+mean(dados_tratados$IDHM_Longevidade)
+mean(dados_tratados$IDHM_Educacao)
+
+# Calculando desvio padrão entre os valores de IDH
+sd(dados_tratados$IDHM)
+sd(dados_tratados$IDHM_Renda)
+sd(dados_tratados$IDHM_Longevidade)
+sd(dados_tratados$IDHM_Educacao)
+
+
 
 
