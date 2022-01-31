@@ -10,7 +10,7 @@ O projeto possui duas entregas:
 
 <br>
 
-- Documento
+- **Documento** (máximo: 10 linhas)
   - Introdução
   - Apresentação do Conjunto de Dados Escolhidos
   - Desenvolvimento da EDA
@@ -18,7 +18,7 @@ O projeto possui duas entregas:
 
 <br>
 
-- Implementação da EDA em R
+- **Implementação da EDA em R**
 
 <br>
 
@@ -36,4 +36,7 @@ Dentre as massas de dados dispostas para a realização do projeto, podia-se esc
 - [Flights in Brazil](https://www.kaggle.com/ramirobentes/flights-in-brazil)
 - [Consumer Business Complaints in Brazil](https://www.kaggle.com/gerosa/procon)
 - [COVID-19 Open Datasets for Brazil](https://www.kaggle.com/cprete/covid19-open-datasets-for-brazil)
+
+<br>
+
 
